@@ -1,0 +1,50 @@
+body{
+    margin: 50px;
+    padding: 50px;
+    background-color: burlywood;
+} 
+.fases{
+    text-align: center;
+    padding: 16px;
+    max-width: 1000px;
+}
+.list{
+    display: inline-block;
+    width: 500px;
+    text-align: left;    
+}
+.cont{
+    text-align: left;
+    padding: 13px;
+}
+.info{
+    display: inline-block;
+    text-align: left;
+}
+.progresso{
+    display: inline-block;
+    text-align: left;
+
+}
+.bar{
+    display: inline-block;
+    text-align: left;
+}
+.dep{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+}
+.bdz{
+    background-color: burlywood;
+    margin: 50px;
+    padding: 50px;
+    max-width: 1000px;
+}
+.bdz h1{
+    text-align: center;
+}
+.back{
+    align-items: center;
+}
